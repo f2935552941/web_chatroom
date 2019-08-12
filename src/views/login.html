@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="/static/css/bootstrap4.1.0.min.css" rel="stylesheet">
+    <link href="/static/css/login.css" rel="stylesheet">
+    <script src="/static/js/bootstrap4.1.0.min.js"></script>
+    <script src="/static/js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+<div class="text-center shadow bg-white rounded box">
+    <h1 class="box-title">Welcome to Chat Room</h1>
+    <div class="row box-form">
+        <form action="/join" method="post" class="form-inline">
+            <div class="input-group" style="margin:0 auto;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fa fa-user"></i>
+                    </span>
+                </div>
+                <input type="text" id="uname" class="form-control" name="uname" placeholder="input your name">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="submit">Enter</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
